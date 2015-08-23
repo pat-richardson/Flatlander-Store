@@ -1,0 +1,52 @@
+.list-group {
+  width: 500px;
+  border: 1px solid gray;
+  padding: 30px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 50px;
+  list-style-type: none;
+}
+.header {
+  width: 500px;
+  margin-right: auto;
+  margin-left: auto;
+  display: block;
+margin-bottom: -45px;
+}
+.header h2 {
+  width: 100%;
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+}
+em {
+  font-weight: normal;
+}
+section {
+  margin-top: 20px;
+}
+.panel p, .panel blockquote, .list-unstyled {
+  background-color: white;
+  border: 1px solid gray;
+  border-radius: 3px;
+  border-left: 8px solid gray;
+  padding: 10px 20px;
+} 
+select, textarea, input[type="email"] {
+  width: 100%;
+  margin-bottom: 15px;
+}
+textarea, input[type="email"] {
+  padding-top: 5px;
+  padding-left: 8px;
+}
+input[type="submit"] {
+  float: right;
+}
+.ng-invalid.ng-dirty {
+  border-color: #FA787E
+}
+.ng-valid.ng-dirty {
+  border-color: #78FA89
+}
